@@ -20,6 +20,8 @@ public class JComponentEx extends JFrame{
 		JButton b1 = new JButton("Megenta/Yellow Button");
 		JButton b2 = new JButton("    Disabled Button    ");
 		JButton b3 = new JButton("getX(), getY()");
+		ImageIcon heart = new ImageIcon("images/heart.jpg");
+		JLabel imageLabel = new JLabel(heart);
 		
 //		b1.setBackground(Color.YELLOW);
 		b1.setBackground(new Color(0, 255, 0));
@@ -35,8 +37,8 @@ public class JComponentEx extends JFrame{
 				frame.setTitle(b.getX() + ", " + getY());
 			}
 		});
-		c.add(b1); c.add(b2); c.add(b3);
-		setSize(260, 200);
+		c.add(b1); c.add(b2); c.add(b3) c.add(imageLabel);
+		setSize(360, 800);
 		setVisible(true);
 	}
 	public static void main(String[] args) {
