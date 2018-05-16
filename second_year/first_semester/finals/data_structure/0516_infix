@@ -1,1 +1,11 @@
 // infix algorithm
+
+//  Evaluation of expressions
+//  <operand>   <operator>  <operand>
+
+//  order of operation
+//  1) Parentheses () [] {}
+//  2) Exponents (right to left)
+//  3) Multiplication and Division (left to right)
+//  4) Addition and Substraction (left to right)
+
