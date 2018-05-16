@@ -11,8 +11,8 @@ public class CheckBoxEx extends JFrame {
         
         ImageIcon cherryIcon = new ImageIcon("image/cherry.jpg");
         ImageIcon selectedCherryIcon = new ImageIcon("image/selectedCherry.jpg");
-        
-
+        //  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code         
+        //  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code 
         //  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code  Core Code 
         JCheckBox apple = new JCheckBox("사과", false);
         JCheckBox pear = new JCheckBox("배", true);
